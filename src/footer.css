@@ -1,0 +1,30 @@
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+   
+}
+
+.ul li{
+    padding: 1rem;
+    display: flex;
+}
+.contect {
+   margin-top: 18px ;
+  margin-left: 50%;
+  
+}
+.email{
+    display: flex;
+}
+.email svg{
+    margin-top: 18px;
+}
+.phone{
+    display: flex;
+}
+.phone svg{
+    margin-top: 15px;
+}

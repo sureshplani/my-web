@@ -1,0 +1,43 @@
+
+.imgContainer{
+    display: flex;
+}
+.img{
+    width: 50%;
+    height: 20rem;
+}
+.skills {
+    margin-left: 5%;
+   
+ }
+ .skills ul {
+    font-size: 30px;
+    font-family: Arial  ;
+    margin: 30px;
+ }
+.background{
+      background-image: url("https://static.vecteezy.com/system/resources/thumbnails/029/349/066/small/ai-generated-ai-generative-backpacker-alone-man-at-high-peak-mountain-adventure-outdoor-nature-inspiration-background-graphic-art-photo.jpg");
+      margin-top: 1px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height:500px; 
+}
+.from input{
+   width: 90%;
+   height: 40px;
+   font-size: 20px;
+   border: 1px solid wheat;
+   margin-top:200px ;
+   margin-left: 5%;
+   border-radius: 25px;
+   padding: 20px;
+  
+}
+
+.h1{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;   
+}

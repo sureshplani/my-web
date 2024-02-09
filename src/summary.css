@@ -1,0 +1,14 @@
+.summary {
+   
+text-align: center;
+  justify-content: center;
+  display: flex;
+ 
+}
+.summary li{
+    display: flex;
+    
+}
+.summary h2{
+    display: flex;
+}

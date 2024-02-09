@@ -1,0 +1,41 @@
+.Nav{
+    width: 100%;
+    color: white;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 60px;
+    
+}
+.link{
+    display: flex;
+    margin-left: 60%;
+}
+.Nav h1{
+    margin-left: 10px;
+    color: black;
+    
+}
+.Nav li{
+    padding: 1rem;
+    display: flex;
+    
+}
+.Nav li a{
+    text-decoration: none;
+    color: white;
+}
+.Nav li:hover,
+.Nav li:focus{
+padding: 1rem;
+margin: 3px;
+}
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a{
+    background-color: white;
+    color: black;
+}
