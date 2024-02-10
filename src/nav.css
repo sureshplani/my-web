@@ -1,22 +1,22 @@
 .Nav{
     width: 100%;
+    max-width: 1280px;
     color: white;
     background-color: gray;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 60px;
     
 }
 .link{
     display: flex;
-    margin-left: 60%;
+   
 }
-.Nav h1{
-    margin-left: 10px;
+.Nav h2{
+    margin-top: 10px;
     color: black;
-    
+    margin-left: 10px;
 }
 .Nav li{
     padding: 1rem;
@@ -30,7 +30,7 @@
 .Nav li:hover,
 .Nav li:focus{
 padding: 1rem;
-margin: 3px;
+
 }
 .Nav li:hover,
 .Nav li:focus,

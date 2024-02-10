@@ -1,6 +1,9 @@
-
+.container{
+    margin-top: 10px;
+}
 .imgContainer{
     display: flex;
+    margin-top: 10px;
 }
 .img{
     width: 50%;
@@ -19,9 +22,11 @@
       background-image: url("https://static.vecteezy.com/system/resources/thumbnails/029/349/066/small/ai-generated-ai-generative-backpacker-alone-man-at-high-peak-mountain-adventure-outdoor-nature-inspiration-background-graphic-art-photo.jpg");
       margin-top: 1px;
       width: 100%;
+      max-width: 1280px;
       background-repeat: no-repeat;
       background-size: cover;
-      min-height:500px; 
+      height: 500px;
+      max-height:500px; 
 }
 .from input{
    width: 90%;
@@ -41,3 +46,24 @@
     justify-content: center;
     background-color: bisque;   
 }
+@media (max-width: 768px) {
+ .background{
+    width: 100%;
+    max-width: 1280px;
+   position: cover;
+    height: 300px;
+   
+ }
+ .from input{
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid wheat;
+    border-radius: 25px;
+   
+    padding: 20px;
+     margin: 100px;
+     margin-left: 50px;
+   
+ }
+  }

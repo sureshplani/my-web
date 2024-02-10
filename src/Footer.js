@@ -6,20 +6,26 @@ import { IoIosPhonePortrait } from "react-icons/io";
 
 function Footer() {
   return (
-       <footer className='footer'>
-                        <ul className='ul'>
-                          <h3>Language</h3>
-                          <li>English</li>
-                          <li>Tamil</li>
-                          <li>Kannadam</li>
-                        </ul>
-                        
-                        <div className='contect'>
-                        <h3> Contect us</h3>
-                        <p className='email'> <CgMail  /> <p>suresh16palani@gmail.com</p> </p>
-                        <p className='phone'> <IoIosPhonePortrait /> <p>8778476778</p> </p>
-                        </div>
+ <footer className='footer'>
+      <div class="footer-row">
+         <div class="footer-col">
+           <h4>Language</h4>
+              <ul class="links">
+               <li><a href="#">English</a></li>
+               <li><a href="#">Tamil</a></li>
+               <li><a href="#">Kannadam</a></li>
+           </ul>
+          </div>
 
+            <div class="footer-col">
+              <h4>Contect</h4>
+              <ul class="links">
+                <li><a href="#"><CgMail  /> suresh16palani@gmail.com</a></li>
+                <li><a href="#"><IoIosPhonePortrait /> 8778476778</a></li>  
+              </ul>
+              </div>
+         
+           </div>
        </footer>
   )
 }

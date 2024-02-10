@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Skills({searchFilter}) {
   return (
    
-    <div >
+    <div className='container'>
      {searchFilter.map(data => data.id === 2 ? 
      
      <div > 
