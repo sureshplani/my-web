@@ -20,7 +20,7 @@ function Home({data, setData}) {
              <div className='background'>
              <form onSubmit={(e) => e.preventDefault()}  className="form" >
                 <input
-                autoFocus
+                
                 type='search'
                 id="search"
                 value={search}

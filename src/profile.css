@@ -26,11 +26,12 @@
 }
 .profile{
  margin-top: 100px;
+
 }
 .profile p{
     font-size: 20px;
-    font-family: Arial  ;
-  
+    font-family: Arial;
+    margin-left: 5px;
 }
 @media (max-width: 768px) {
     .container{
