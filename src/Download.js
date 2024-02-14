@@ -14,9 +14,9 @@ function Download() {
   }
   return (
     <div className='download'>
-      <p>Click Below The Download Button To Download My Resume</p>
+         <p>Click Below The Download Button To Download My Resume</p>
          <button onClick={handleDownload} >Download</button>
-         </div>
+     </div>
   )
 }
 

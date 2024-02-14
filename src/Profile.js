@@ -2,10 +2,10 @@ import React from 'react'
 import './profile.css'
 function Profile({searchFilter}) {
   return (
-    <div className='container'> 
+    <div className='container' > 
    {searchFilter.map(data => data.id === 1 ?
-                 <div >
-                  <h1 className='h1'>{data.title}</h1>
+                 <div key={data.id}>
+                  <h1 className='h1' >{data.title}</h1>
                   <div className='imgContainer1 '>
                   <article className='profile'>
                   <p>

@@ -16,9 +16,9 @@ function Home({data, setData}) {
     },[search, data]
   )
   return (
-          <div>
+          <div className='Home'>
              <div className='background'>
-                <from onSubmit={(e) => e.preventDefault()}  className="from" >
+             <form onSubmit={(e) => e.preventDefault()}  className="form" >
                 <input
                 autoFocus
                 type='search'
@@ -26,9 +26,8 @@ function Home({data, setData}) {
                 value={search}
                placeholder='search here '
                 onChange={(e) => setSearch(e.target.value)}
-                 />
-                
-                </from>
+                 /> 
+                </form>
               </div>
             <Profile searchFilter={searchFilter} />
             <Skills searchFilter={searchFilter} />

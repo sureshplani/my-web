@@ -28,7 +28,7 @@
       height: 500px;
       max-height:500px; 
 }
-.from input{
+.form input{
    width: 90%;
    height: 40px;
    font-size: 20px;
@@ -54,13 +54,12 @@
     height: 300px;
    
  }
- .from input{
+ .form input{
     width: 350px;
     height: 30px;
     font-size: 20px;
     border: 1px solid wheat;
     border-radius: 25px;
-   
     padding: 20px;
      margin: 100px;
      margin-left: 50px;

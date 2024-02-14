@@ -17,7 +17,9 @@ function App() {
     <div className="App">
        <Nav />
       <Routes>
-        <Route path='/' element={<Home data={data} setData={setData}  />} />
+        <Route path='/' element={<Home 
+                        data={data}
+                        setData={setData} />} />
         <Route path='download' element={<Download />} />
         <Route path='summary' element={<Summary />} />
       </Routes>
